@@ -1,0 +1,65 @@
+.input-container{
+    /* padding-left: px; */
+    text-align: center;
+    margin: auto ;
+    /* margin-right: 4px; */
+    /* margin-left: clamp(375px,37%,1250px);
+    margin-right:clamp(375px,30%,1250px); ; */
+    margin-top: 18rem;
+    left: 200px;
+    width: 400px;
+    border: 1px solid rgb(180, 186, 193);
+    border-radius: 4px;
+}
+#text{
+    /* background-image: url(./backgr1.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+    background-image: linear-gradient(90deg,#00c0ff 0%,#ffcf00 49%,#fc4f4f 80%,#00c0ff 100%);
+    animation: slidebg 2s linear infinite;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+}
+#input-text{
+    font-size: 1.04rem;
+    margin-right: 2rem;
+    border-radius: 4px;
+}
+#submit-btn{
+    font-size: 1.04rem;
+    background-color: rgb(31, 167, 216);
+    color: aliceblue;
+    border-radius: 4px;
+}
+#submit-btn:hover{
+    background-image: linear-gradient(90deg,#00c0ff 0%,#ffcf00 49%,#fc4f4f 80%,#00c0ff 100%);
+    animation: slidebg 2s linear infinite;
+}
+.col-name{
+    background-image: linear-gradient(90deg,#00c0ff 0%,#ffcf00 49%,#fc4f4f 80%,#00c0ff 100%);
+    animation: slidebg 2s linear infinite;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.credit{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient(180deg,#ffffff 0%,#000000 100%);
+    animation: slidebg 2s linear infinite;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.heart{
+    background-image: linear-gradient(90deg,#00c0ff 0%,#ffcf00 49%,#fc4f4f 80%,#00c0ff 100%);
+    animation: slidebg 2s linear infinite;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+@keyframes slidebg{
+    to{
+        background-position: 15vw;
+    }
+}
